@@ -24,7 +24,7 @@ export class AppComponent {
         StatusBar.setBackgroundColor({color:'#CDCDCD'})
       }
     } catch (error) {
-      console.log('This is normal in a browser',error);
+      console.log('Esto es un navegador',error);
     }
   }
 }
